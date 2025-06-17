@@ -1,64 +1,42 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: radial-gradient(circle at top, #1a1a1a, #000000);
-  color: #f0f0f0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  overflow: hidden;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+    text-align: center;
 }
 
-.container {
-  text-align: center;
-  max-width: 700px;
-  padding: 40px;
-  background-color: rgba(30, 30, 30, 0.95);
-  border-radius: 20px;
-  box-shadow: 0 0 25px rgba(255, 255, 255, 0.05);
-  animation: fadeIn 2s ease-out;
+header {
+    background: #007bff;
+    color: white;
+    padding: 20px;
 }
 
-h1 {
-  font-size: 2.5rem;
-  color: #f39c12;
-  margin-bottom: 20px;
+nav ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-.apology {
-  font-size: 1.2rem;
-  line-height: 1.8;
-  margin-bottom: 35px;
-  color: #dcdcdc;
+nav ul li {
+    display: inline;
+    margin: 0 15px;
 }
 
-.quote {
-  font-size: 1.3rem;
-  font-style: italic;
-  color: #e74c3c;
-  margin-bottom: 40px;
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-.forgive-btn {
-  display: inline-block;
-  background: #2980b9;
-  color: white;
-  padding: 14px 28px;
-  border-radius: 50px;
-  text-decoration: none;
-  font-size: 1.1rem;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-  transition: background 0.3s ease, transform 0.3s ease;
+section {
+    padding: 20px;
 }
 
-.forgive-btn:hover {
-  background: #3498db;
-  transform: scale(1.05);
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(40px); }
-  to { opacity: 1; transform: translateY(0); }
+footer {
+    background: #343a40;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
